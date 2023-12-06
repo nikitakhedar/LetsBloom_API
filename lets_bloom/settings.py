@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'api',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'lets_bloom_postgres',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': '1234567890',
         'HOST': 'localhost'
     }
 }

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse,JsonResponse
-from .models import Books
+from api.models import Books
 import json
 
 def get_api_books(requests):
