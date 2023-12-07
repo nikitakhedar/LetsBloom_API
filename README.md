@@ -4,6 +4,11 @@ I have created this repository to store the assignment for the LetsBloom.ai plac
 
 ## Task-1: Crafting a Robust RESTful API for Library System Management
 
+### Repo WalkThrough
+- **letbloom** - This is the main project directory which contains the project "letsbloom" and application "api" for the working of the task. Along with this we have the general django dependency files
+- **README.md** - The readme file for repository
+- **.gitignore** & **LICENSE** - Files for the mainataince and usage guidelines repectively
+
 ### Technical Insights
 
 #### Database Configuration
@@ -14,3 +19,6 @@ Within the overarching project, denoted as `lets_bloom`, an essential constituen
 
 To encapsulate the project's coherence, pivotal API methods are housed within `views.py` of the `api` app. This pivotal juncture facilitates seamless integration and operationalization of the API. Furthermore, the integration is fortified through the strategic augmentation of the `settings.py` file, encapsulating the addition of the installed `api` app and judiciously configuring the database settings.
 
+
+### Deployment Details
+To deploy the project Python3 or above is recommended along with django 4.2.6 or greater. The setup follows the genral PostgreSQL version 14 or above. Follow the standard django guidelines with recommended virtualenv installation for best output
